@@ -20,7 +20,7 @@
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
         <div class="jumbotron">
-            <h1 class="display-4">The Truth is Out There</h1>
+            <h1>The Truth is Out There</h1>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -43,20 +43,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <form class="bg-dark">
+                    <form>
                         <p>Filter Search</p>
-                        <ul class="list-group bg-dark">
-                            <li class="list-group-item bg-dark">
-                                <label for="date">Enter Date</label>
-                                <input type="text" placeholder="1/20/2010" id="datetime" />
-                            </li>
-                            <li class="list-group-item bg-dark">
-                                <div class="center">
-                                    <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-                                </div>
-                            </li>
-                        </ul>
                     </form>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <label for="date">Enter Date</label>
+                            <input type="text" placeholder="1/20/2010" id="datetime" />
+                        </li>
+                        <li class="list-group-item">
+                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-9">
                     <table class="table table-striped">
